@@ -20,39 +20,3 @@ body {
   font-size: 0.75rem;
   cursor: pointer;
 }
-
-.bar-chart {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  padding-left: 2rem;
-  width: 60%;
-  height: 70%;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  background: #f0f0f0;
-}
-
-.bar-container {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  height: 100%;
-  width: 3rem;
-  /* background: #f0f0f0; */
-}
-
-.participant {
-  position: absolute;
-  left: 0;
-  top: -16px;
-  font-size: 0.8rem;
-}
-
-.bar {
-  width: 100%;
-}
-
-.count {
-  font-weight: 900;
-}
